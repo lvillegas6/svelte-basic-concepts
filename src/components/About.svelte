@@ -13,7 +13,7 @@
 
 </script>
 
-<div class="About">
+<div class="About {styles.darkMode ? 'text-dark' : 'text-ligh'}">
 
     {#if !styles.darkMode}
         <p> {someText} </p>

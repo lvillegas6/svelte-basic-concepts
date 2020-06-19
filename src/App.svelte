@@ -34,10 +34,14 @@
 
 	:global(:root){
 		--theme-color: purple;
+		--theme-color-darkMode: bfc2c7;
 	}
 
 	:global(body.dark-mode){
 		background-color: #1d3040;
+	}
+
+	:global(body.dark-mode p){
 		color: #bfc2c7;
 	}
 
